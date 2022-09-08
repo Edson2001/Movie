@@ -11,7 +11,7 @@
             <span>Lorem</span>
             <p class="titleCard">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor.</p>
             {#if isSection}
-                <p class="section-options">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor...</p>
+                <p class="section-options disbaled-mobile">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eros tellus, malesuada et velit in, blandit molestie dolor...</p>
                 <p class="section-options">00/00/0000</p>
                 <p class="section-options button-options">
                     Ler Notícia

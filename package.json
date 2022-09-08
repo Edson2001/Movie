@@ -43,6 +43,7 @@
 	"type": "module",
 	"dependencies": {
 		"@fontsource/fira-mono": "^4.5.0",
+		"@splidejs/svelte-splide": "^0.2.7",
 		"cookie": "^0.4.1"
 	}
 }

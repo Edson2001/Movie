@@ -86,6 +86,9 @@ body{
 	}
 	margin-bottom: 68px;
 }
+.showOnMobile{
+	display: none;
+}
 @media (max-width: 774px){
 	.contentBody{
 		padding: 10px;
@@ -94,9 +97,29 @@ body{
 		display: flex !important;
 		flex-wrap: wrap;
 		.sidebar{
+			width: 100%;
 			.card{
 				background-color: tomato;
 			}
 		}
+	}
+	.card{
+		p.disbaled-mobile{
+			display: none !important;
+		}
+	}
+	.destaques{
+		display: none !important;
+	}
+	.content{
+		.card{
+			p.titleCard{
+				font-size: 12px;
+			}
+		}
+	}
+	.showOnMobile{
+		display: block;
+		margin-bottom: 48px;
 	}
 }

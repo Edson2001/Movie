@@ -1,6 +1,8 @@
 <script lang="ts">
+
 import Card from "../components/Card.svelte";
 import News from "../components/News.svelte";
+import MobileCarousel from "../components/MobileCarousel.svelte";
 import '../app.scss'
 
 </script>
@@ -10,10 +12,12 @@ import '../app.scss'
 			<p>Mundo Nerd?</p>
 			<p>NAPED!</p>
 		</h2>
+		
 		<p class="bannerContentDescription">
 			O Naped pode ser sua fonte de informações sobre o mundo nerd e outros assuntos relacionados.
 		</p>
 	</div>
+	<MobileCarousel />
 	<div class="destaques">
 		<Card imgSrc='images/877562 1.png'></Card>
 		<Card imgSrc='images/98677e90349dff1d04519b1cebc0d02a 1.png'></Card>
@@ -87,6 +91,5 @@ import '../app.scss'
 		margin-bottom: 12px;
 		max-width: 210px;
 	}
-	
 }
 </style>
